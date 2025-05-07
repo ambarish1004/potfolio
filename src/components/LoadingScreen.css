@@ -1,0 +1,30 @@
+.loading-screen {
+    height: 100vh;
+    background: black;
+    color: #0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    animation: flicker 3s infinite alternate;
+  }
+  
+  .logo-glow {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 40px #0ff;
+  }
+  
+  .loading-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  @keyframes flicker {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+  

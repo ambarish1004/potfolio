@@ -1,0 +1,25 @@
+/* General section styling for full-screen, scrollable sections */
+.section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .section > .content {
+    z-index: 2;
+    text-align: center;
+    color: var(--text-main);
+    font-size: 2rem;
+  }
+  
+  section:nth-child(odd) {
+    background-color: #111;
+  }
+  
+  section:nth-child(even) {
+    background-color: #222;
+  }
+  

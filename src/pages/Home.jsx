@@ -16,16 +16,16 @@
 // };
 
 // export default Hero;
-import React from 'react';
-import Hero from '../components/Hero';
+// import React from 'react';
+// import Hero from '../components/Hero';
 
-const Home = () => {
-  return (
-    <div>
-      <Hero />
-      {/* More sections will go here */}
-    </div>
-  );
-};
+// const Home = () => {
+//   return (
+//     <div>
+//       <Hero />
+//       {/* More sections will go here */}
+//     </div>
+//   );
+// };
 
-export default Home;
+// export default Home;
